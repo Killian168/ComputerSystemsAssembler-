@@ -19,7 +19,7 @@ myvar2:
 
 /* Ensure code is 4 byte aligned */
 .balign 4
-.gloabl main
+.global main
 main:
 	ldr r1, addr_of_myvar1
 	ldr r1, [r1]
